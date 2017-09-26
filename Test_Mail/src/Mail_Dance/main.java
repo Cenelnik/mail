@@ -29,9 +29,9 @@ public class main {
 			girl GIRL[] = new girl[girls];
 			
 			
-			//Определяем имена ДЕВОЧЕК,  заводим на каждого анкеты с танцами.
-			//Если в параметре вида танца персонажа стоит 1 то он умее танцевать этот танец
-			//Если в параметре танца персонажа стоит 0,  то танцевать этот танец он не будет или не умеет
+			//Define the names of the GIRLS, the same plants on each questionnaire
+			//If the parameter is equal to 1, then the guy can and wants to dance this dance, 
+			//if the parameter is 0, then he does not want to dance this dance
 			System.out.println(" The guys went to the club. Now will is face control." + '\n' + " Ladies first, by one");
 
 			
@@ -51,9 +51,9 @@ public class main {
 				}
 			}
 			
-			//Определяем имена ПАРНЕЙ, так же заводим на каждого анкеты с танцами.
-			//Если в параметре вида танца персонажа стоит 1 то он умее танцевать этот танец
-			//Если в параметре танца персонажа стоит 0,  то танцевать этот танец он не будет или не умеет
+			//Define the names of the GUYS, the same plants on each questionnaire
+			//If the parameter is equal to 1, then the guy can and wants to dance this dance, 
+			//if the parameter is 0, then he does not want to dance this dance
 			System.out.println();
 			
 		
@@ -74,8 +74,8 @@ public class main {
 					BOY[i].Pop_music = rand.nextInt(2);
 				}
 			}
-		//Определим песни на сегодня, они определяются рандомно числом от 1 до 3.
-		//Где 1 это Rnb; 2 это - Electrohuse; а 3 это POP музыка.
+			//Define the song for today, they are determined by a random number from 1 to 3.
+			//Where 1 is the Rnb music; 2 this - Electrohuse music; and 3 is a POP music.
 			int Stack_songs[] = new int[songs];
 			for(int i = 0; i < songs; i++ ){
 				
@@ -87,7 +87,7 @@ public class main {
 			System.out.println("  DISCO BEGAN!!!! ");
 			System.out.println();
 			
-		//------------------------------------  Начало тусовки  --------------------------------------
+		//------------------------------------  The beginning of the party  --------------------------------------
 			for(int i = 0; i < songs; i++ ){
 				
 				System.out.print(" NOW PLAY ....");
@@ -182,7 +182,7 @@ public class main {
 				
 				}
 				
-				//Тайм-аут в 5 секунд между песнями по условию задачи
+				//Time-out 5 sec
 				Thread.sleep(5000);
 				
 			}
